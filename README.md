@@ -20,11 +20,11 @@ npx ts-node foo.ts
 
 e.g
 
-npx ts-node ./src/Label.ts
+yarn run ts-node ./src/Label.ts
 
 ## Load a typescript into repl:
 
-npx ts-node
+yarn run ts-node
 
 > import {x} from './src/Label'
 > x
