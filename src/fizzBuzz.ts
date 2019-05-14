@@ -8,7 +8,7 @@ function number1To100(): number[] {
 }
 
 function transformToFizzBuzz(i: number): string | number {
-    return (i % 3 == 0 && i % 5 == 0) ? 'FizzBuzz' : (i % 3 == 0) ? 'Fizz' : (i % 5 == 0) ? 'Buzz' : i;
+    return (i % 3 === 0 && i % 5 === 0) ? 'FizzBuzz' : (i % 3 === 0) ? 'Fizz' : (i % 5 === 0) ? 'Buzz' : i;
 }
 
 
