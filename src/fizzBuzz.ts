@@ -1,9 +1,10 @@
-export const fizzbuzz = (): (string | number)[] =>
+export const fizzBuzz = (): (string | number)[] =>
     number1To100().map(i => transformToFizzBuzz(i));
 
 function number1To100(): number[] {
-    return [...Array(100).keys()]
-        .map(i => i + 1);
+    const number0To99 = () => [...Array(100).keys()];
+
+    return number0To99().map(i => i + 1);
 }
 
 function transformToFizzBuzz(i: number): string | number {
