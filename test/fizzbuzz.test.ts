@@ -1,4 +1,4 @@
-import {fizzBuzz} from '../src/fizzBuzz'
+import {fizzBuzz} from "../src/fizzBuzz";
 
 describe("fizzBuzz", () => {
     it("give 100 values", () => {
@@ -11,17 +11,17 @@ describe("fizzBuzz", () => {
     });
 
     it("give Fizz for 3rd and 99th value", () => {
-        expect(fizzBuzz()[2]).toEqual('Fizz');
-        expect(fizzBuzz()[98]).toEqual('Fizz');
+        expect(fizzBuzz()[2]).toEqual("Fizz");
+        expect(fizzBuzz()[98]).toEqual("Fizz");
     });
 
     it("give Buzz for 5th value and 100th value", () => {
-        expect(fizzBuzz()[4]).toEqual('Buzz');
-        expect(fizzBuzz()[99]).toEqual('Buzz');
+        expect(fizzBuzz()[4]).toEqual("Buzz");
+        expect(fizzBuzz()[99]).toEqual("Buzz");
     });
 
     it("give FizzBuzz for 15th and 90th value", () => {
-        expect(fizzBuzz()[14]).toEqual('FizzBuzz');
-        expect(fizzBuzz()[89]).toEqual('FizzBuzz');
+        expect(fizzBuzz()[14]).toEqual("FizzBuzz");
+        expect(fizzBuzz()[89]).toEqual("FizzBuzz");
     });
 });
